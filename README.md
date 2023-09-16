@@ -2,7 +2,7 @@
 Replication package for my PhD Writing Sample "Collateral pledging in the credit market" (2023).
 
 ## Instructions 
-- Click [here](https://github.com/DiegoCiccia/WSReplication) to download this repository as a .zip file.
+- Click [here](https://github.com/DiegoCiccia/WSReplication/zipball/master/) to download this repository as a .zip file.
 - Unzip the compressed folder.
 - Run "main_BdI.do" (desynchronize Dropbox if the files are transferred to a Dropbox folder).
 
