@@ -9,8 +9,9 @@ qui { // Directories //
 	}
 }
 qui { // External Packages //
-	noi ssc install shp2dta, replace
-	noi ssc install spmap, replace
+	foreach p in shp2dta spmap coefplot cleanplots {
+		noi ssc install `p', replace
+	}
 }
 ////////////////////////////////////////////////////////////////////////////////
 //  Please desynchronize Dropbox if you run this script in a Dropbox folder   // 
