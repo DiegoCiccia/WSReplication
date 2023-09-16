@@ -8,11 +8,15 @@ qui { // Directories //
 		local j = `j' + 1
 	}
 }
+qui { // External Packages //
+	noi ssc install shp2dta, replace
+	noi ssc install spmap, replace
+}
 ////////////////////////////////////////////////////////////////////////////////
 //  Please desynchronize Dropbox if you run this script in a Dropbox folder   // 
 ////////////////////////////////////////////////////////////////////////////////
 qui { // Data loading //
-	use "$dird\ASCI_redux.dta", clear
+	use "$dird/ASCI_redux.dta", clear
 
 	gen attivo = log(voce9991)
 	gen l_coll = log(voce2000)
