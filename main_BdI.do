@@ -9,7 +9,7 @@ qui { // Directories //
 	}
 }
 qui { // External Packages //
-	foreach p in shp2dta spmap coefplot cleanplots {
+	foreach p in shp2dta spmap coefplot cleanplots reghdfe {
 		noi ssc install `p', replace
 	}
 }
